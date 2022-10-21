@@ -1,19 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    cursor: pointer;
+}
+
 header{
-    background-color: #FFFFFF;
+   /*  background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: #7777;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+header a{
+    color: inherit;
+}
+
+header ul{
+    list-style: none;
+
+    display: flex;
+}
+
+header ul li{
+    margin: 15px; 
+}
+
+.container{
+    max-width: 1280;
     width: 100%;
-    height: 122px;
+    margin: 0 auto;
+}
+
+.banner,.banner img {
+    width: 100%;
+}
+
+.your-staly{
+    padding: 30px;
+}
+
+.your-style h1{
+    text-align: center;
+    font-size: 42px;
+    margin-top: 35px;
+    
+}
+
+.your-style article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-top: 60px;
+}
+
+.products{
+    background-color: #C2185B;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.products h1{
+    color: white;
+    font-size:45px ;
+    
+}
+
+.card-products{
+    background-color: white;
+    width: 260px;
+    max-width: 100%;
+    height: 375px;
+}
+
+.products div {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.container2{
+   /*  background-color: aqua; */
+    width: 300px;
+    max-width: 100%;
+    height: 120px;
     max-height: 100%;
-    padding: 15px;
+}
 
+.container2 div{
+    background-color: #C2185B;
+    width: 200px;
+    max-width: 100%;
+    height: 45px;
+    color: white;
 
 }
-header ul, header ul li{
-    display: inline;
-    margin-right: 15px;
-    margin-left: 20px;
+
+.shoes{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    padding: 50px;
 }
+
+.shoes img{
+    margin-top: 50px;
+}
+
+
