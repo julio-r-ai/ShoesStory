@@ -41,6 +41,7 @@ header ul{
 
 header ul li{
     margin: 15px; 
+    color: #7777;
 }
 
 .container{
@@ -139,11 +140,28 @@ footer{
     width: 100%;
     height: 300px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    
 }
 
-footer .logo{
+footer,ul, li, a{
+    color: white;
+    list-style: none;
+}
+
+.logo{
+    width: 170px;
+}
+
+.logo img{
     width: 200px;
     max-width: 100%;
+    margin: 0px;
+
 }
 
+.logo, strong, ul{
+    margin-top: 20px;
+}
