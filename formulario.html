@@ -46,18 +46,62 @@
             <input type="text" name="departamento" id="departamento">
         </div>
 
-        <div>
-            <label for="disponibilidade">Disponibilidade</label>
-            <input type="checkbox" name="disponibilidade" id="disponibilidade">
-            <input type="checkbox" name="disponibilidade" id="disponibilidade">
-            <input type="checkbox" name="disponibilidade" id="disponibilidade">
-        </div>
+        <div class="checkbox">
+            <p>Disponibilidade</p>'
+            
+            <div>
+                <label for="integral">
+                    <input type="checkbox" name="disponibilidade" id="integral">
+    
+                    Integral(8h)
+    
+                </label>
+            </div>
 
-        <div>
-            <label for="contato">Qual a melhor forma para entrarmos em contato com voce?</label>
-            <input type="radio" name="email" id="email">
-            <input type="radio" name="ligacao" id="ligacao">
-            <input type="radio" name="whatsapp" id="whatsapp">
+            <div>
+                <label for="meioPeriodo">
+                    <input type="checkbox" name="disponibilidade" id="meioPeriodo">
+    
+                    Meio periodo(4h)
+    
+                </label>
+            </div>
+
+            <div>
+                <label for="freelance">
+                    <input type="checkbox" name="disponibilidade" id="freelance">
+    
+                    Freelance
+    
+                </label>
+            </div>
+            
+        </div>    
+
+        <div class="checkbox">
+                <p>Qual a melhor forma para entrarmos em contato com voce?</p>
+
+                <label for="email">
+                    <input type="radio" name="email" id="email">
+
+                    E-mail
+
+                </label>
+        
+                <label for="ligacao">
+                    <input type="radio" name="ligacao" id="ligacao">
+
+                    Ligacao
+
+                </label>
+
+                <label for="whatsapp">
+                    <input type="radio" name="whatsapp" id="whatsapp">
+
+                    WhatSapp
+
+                </label>
+                
         </div>
 
         <div>
@@ -70,7 +114,7 @@
             <input type="file" name="curriculo" id="curriculo">
         </div>
 
-        <div class="botaoForm">
+        <div class="botaoForm" id="botaoForm">
             <strong><p>Enviar</p></strong>
         </div>
 
