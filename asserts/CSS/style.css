@@ -250,7 +250,7 @@ body .telaLogin{
     
     background-color: #FFFFFF;
     width: 50% ;
-    height: 350px;
+    height: 320px;
     border-radius: 10px;
     box-shadow: 2px 2px 7px 1px rgb(101, 101, 101);
     display: flex;
@@ -258,14 +258,17 @@ body .telaLogin{
     text-align: center;
     margin: auto;
     padding: 25px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 60px;
 
     position:relative;
-    bottom: 150px;
+    bottom: 100px;
+    
 }
 
+
 .logoLogin img{
-    width: 150px;
+    width: 160px;
 }
 
 .telaLogin div label, input{
