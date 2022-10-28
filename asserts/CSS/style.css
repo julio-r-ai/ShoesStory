@@ -205,13 +205,27 @@ footer,ul, li, a{
     flex-direction: column;
 }
 
-.botaoForm{
-    background-color: #C2185B;
+/* 
+.checkbox-wapper */
+
+.file-wapper{
+    width: 100%;
+}
+
+.file-wapper input[type="file"]::-webkit-file-upload-button{
+    appearance: none;
+
+    background-color: #9b9b9b;
     color: white;
-    height: 30px;
+    border: none;
+
+    padding: 10px;
 
 }
 
-.botaoForm strong{
-    margin: auto;  
+.submit-wapper input[type="submit"]{
+    background-color: #C2185B;
+    color: white;
+    border: none;
+    height: 30px;
 }
