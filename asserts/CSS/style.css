@@ -229,3 +229,53 @@ footer,ul, li, a{
     border: none;
     height: 30px;
 }
+
+
+/* Tela de login */
+
+body .telaLogin{
+    display: flex;
+    justify-content: center;
+}
+
+
+.headerLogin{
+    background-color: #C2185B;
+    width: 100%;
+    height: 230px;
+}
+
+
+.telaLogin{
+    
+    background-color: #FFFFFF;
+    width: 50% ;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px 1px rgb(101, 101, 101);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    padding: 25px;
+    padding-bottom: 50px;
+
+    position:relative;
+    bottom: 150px;
+}
+
+.logoLogin img{
+    width: 150px;
+}
+
+.telaLogin div label, input{
+    width: 100%;
+    display: flex;
+}
+
+.telaLogin div{
+    margin-top: 15px;
+}
+
+
+
