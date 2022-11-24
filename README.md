@@ -1,28 +1,3 @@
-# Shous-store
-## Shous-store
-### Shous-store
-
-#
-
-Oii, tudo **bem**
-
-```bash 
-    npm install
-```
-
-### Listade compras
-- Cafe
-- Leite
-- Refrigerante
-  - Laranja
-  - Coca-cola
-  - Guarana
--Carne
-
--[x] Teste
-
-
-
 # Shoes-story
 
 ![Landingpage](asserts/img/shoes-story-home.PNG)
